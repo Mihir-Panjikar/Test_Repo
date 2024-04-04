@@ -1,0 +1,1 @@
+print("shraddha is very pretty and smart")

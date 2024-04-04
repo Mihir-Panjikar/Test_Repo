@@ -1,0 +1,1 @@
+print("Varda is really pretty and smart at the same time. She is a great friend.")

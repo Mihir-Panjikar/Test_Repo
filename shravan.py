@@ -1,0 +1,1 @@
+print("Main iss saal top karega, sorry agale saal")

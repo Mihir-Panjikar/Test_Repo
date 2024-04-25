@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Football Coaching Classes</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      color: #fff;
+      background-image: url('football.jpg'); /* Add your image path here */
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+    }
+    .navbar {
+      background-color: rgba(0, 0, 0, 0.5);
+      color: #fff;
+      padding: 15px;
+      text-align: center;
+    }
+    
+    .navbar h1 {
+      margin: 0;
+      font-size: 32px;
+    }
+
+    .navbar ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    .navbar li {
+      display: inline;
+      margin: 0 10px;
+    }
+
+    .navbar a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    .content {
+      padding: 50px;
+      display: none; 
+    }
+
+    .content:target {
+      display: block; 
+    }
+    
+    h2 {
+      font-size: 36px;
+      color: #fff;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+      color: #fff;
+    }
+    th, td {
+      border: 1px solid #fff;
+      padding: 12px;
+      text-align: center;
+      color: #fff;
+    }
+    th {
+      background-color: rgba(255, 255, 255, 0.3);
+    }
+    .form-container {
+      max-width: 500px;
+      margin: 0 auto;
+    }
+    form {
+      background-color: rgba(255, 255, 255, 0.8);
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      color: #000;
+    }
+    label {
+      display: block;
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    textarea {
+      width: calc(100% - 20px);
+      padding: 10px;
+      margin-bottom: 20px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+    input[type="submit"] {
+      padding: 12px 24px;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+  </style>
+</head>
+<body>
+
+  <div class="navbar">
+    <h1>Football Coaching Classes</h1>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About Us</a></li>
+      <li><a href="#schedule">Schedule Classes</a></li>
+      <li><a href="#contact">Contact Us</a></li>
+    </ul>
+  </div>
+
+  <div id="home" class="content">
+    <h2>Welcome to Football Coaching Classes</h2>
+    <p>Welcome to Football Coaching Classes! We are committed to providing top-notch coaching and training for football enthusiasts of all ages and skill levels. Our aim is to create a nurturing environment where players can hone their skills, build teamwork, and excel on the field.</p>
+    <p>Our experienced coaches focus on individual skill development, tactical understanding, and physical fitness. Join us and unleash your full potential on the football field!</p>
+    <p>At Football Coaching Classes, we believe in fostering a positive and inclusive environment where players can thrive both on and off the field. Join our community and become part of the football family!</p>
+  </div>
+  
+
+  <div id="about" class="content">
+    <h2>About Football Coaching Classes</h2>
+    <p>Football Coaching Classes is a leading football training academy dedicated to helping players reach their full potential. With a focus on skill development, tactical understanding, and physical conditioning, we offer comprehensive training programs tailored to individual needs.</p>
+    <p>Our coaching staff consists of experienced professionals who are passionate about the game and dedicated to helping players succeed. From beginner to advanced levels, we provide the guidance and support needed to take your game to the next level.</p>
+    <p>At Football Coaching Classes, we believe in fostering a positive and inclusive environment where players can thrive both on and off the field. Join our community and become part of the football family!</p>
+    <p>Our facilities are equipped with state-of-the-art training equipment and technology to provide players with the best possible training experience. From training pitches to fitness centers, we offer everything you need to reach your full potential as a footballer.</p>
+  </div>
+
+  <div id="schedule" class="content">
+    <h2>Schedule Classes</h2>
+    <p>Check out our weekly schedule for football training sessions:</p>
+    <table>
+      <tr>
+        <th>Day</th>
+        <th>Morning Session</th>
+        <th>Afternoon Session</th>
+        <th>Evening Session</th>
+      </tr>
+      <tr>
+        <td>Monday</td>
+        <td>8:00 AM - 10:00 AM</td>
+        <td>1:00 PM - 3:00 PM</td>
+        <td>6:00 PM - 8:00 PM</td>
+      </tr>
+      <tr>
+        <td>Tuesday</td>
+        <td>8:00 AM - 10:00 AM</td>
+        <td>1:00 PM - 3:00 PM</td>
+        <td>6:00 PM - 8:00 PM</td>
+      </tr>
+      <tr>
+        <td>Wednesday</td>
+        <td>8:00 AM - 10:00 AM</td>
+        <td>1:00 PM - 3:00 PM</td>
+        <td>6:00 PM - 8:00 PM</td>
+      </tr>
+      <tr>
+        <td>Thursday</td>
+        <td>8:00 AM - 10:00 AM</td>
+        <td>1:00 PM - 3:00 PM</td>
+        <td>6:00 PM - 8:00 PM</td>
+      </tr>
+      <tr>
+        <td>Friday</td>
+        <td>8:00 AM - 10:00 AM</td>
+        <td>1:00 PM - 3:00 PM</td>
+        <td>6:00 PM - 8:00 PM</td>
+      </tr>
+      <tr>
+        <td>Saturday</td>
+        <td>10:00 AM - 12:00 PM</td>
+        <td>3:00 PM - 5:00 PM</td>
+        <td>7:00 PM - 9:00 PM</td>
+      </tr>
+      <tr>
+        <td>Sunday</td>
+        <td>10:00 AM - 12:00 PM</td>
+        <td>3:00 PM - 5:00 PM</td>
+        <td>7:00 PM - 9:00 PM</td>
+      </tr>
+    </table>
+    <div class="dropdown">
+      <label for="weekday">Select Weekday:</label>
+      <select id="weekday">
+        <option value="Monday">Monday</option>
+        <option value="Tuesday">Tuesday</option>
+        <option value="Wednesday">Wednesday</option>
+        <option value="Thursday">Thursday</option>
+        <option value="Friday">Friday</option>
+        <option value="Saturday">Saturday</option>
+        <option value="Sunday">Sunday</option>
+      </select>
+    </div>
+  
+    <div class="dropdown">
+      <label for="time">Select Time Slot:</label>
+      <select id="time">
+        <option value="Morning">Morning</option>
+        <option value="Afternoon">Afternoon</option>
+        <option value="Evening">Evening</option>
+      </select>
+    </div>
+  </div>
+
+  <div id="contact" class="content">
+    <h2>Contact Us</h2>
+    <p>For inquiries or to enroll in our programs, please contact us using the form below:</p>
+    <div class="form-container">
+      <form>
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br>
+    
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br>
+    
+        <label for="phone">Phone:</label><br>
+        <input type="tel" id="phone" name="phone" required><br>
+    
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="6" required></textarea><br>
+    
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+</body>
+</html>
